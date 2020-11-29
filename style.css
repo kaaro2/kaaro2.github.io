@@ -1,0 +1,152 @@
+#body {
+  margin: 0px;
+  background-color: #FFFFFF;
+}
+
+#img1 {
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  max-height: 300px;
+  opacity:.5;
+}
+
+
+#header {
+  text-align: center;
+  font-size: 200px;
+  padding:20px;
+  width:100%;
+  font-variant: small-caps;
+  color:#FFFFFF;
+}
+
+#menu{
+  position: sticky;
+  overflow: hidden;
+  width: 100%;
+  background-color: #90B494;
+  list-style-type: none;
+  margin: 0;
+}
+
+.li1 {
+  float:left;
+}
+
+.li2 {
+  float:right;
+}
+
+.a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 24px 16px;
+  text-decoration: none;
+  font-variant: small-caps;
+  font-size: 22px;
+}
+
+.a:hover {
+  background-color: #BFC8AD;
+}
+
+#content {
+  width: 100%;
+  background-color: #FFFFFF;
+
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #718F94;
+  padding: 16px;
+  border: none;
+  cursor: pointer;
+  width: 110%;
+  color: #FFFFFF;
+  font-size: 24px;
+  font-variant: small-caps;
+
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover{
+  background-color: #545775;
+  color:#FFFFFF;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: static;
+  background-color: #FFFFFF;
+  min-width: 160px;
+  z-index: 1;
+  width: 100%;
+  column-count: 3;
+  height: auto;
+  line-height: 2.5em;
+  font-size: 20px;
+  font-variant: small-caps;
+  text-align: center;
+}
+
+#submit {
+  position: relative;
+  background-color: #718F94;
+  border: none;
+  cursor: pointer;
+  color: #FFFFFF;
+  font-size: 32px;
+  font-variant: small-caps;
+  width: 300px;
+  text-align: center;
+  margin-left: -150px;
+  margin-right: -150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  left:50%;
+  padding: 10px;
+}
+
+
+#submit:hover{
+  background-color: #545775;
+  color:#FFFFFF;
+}
+
+.a2 {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+#footer{
+  width:100%;
+  height:150px;
+  background-color: #90B494;
+}
+
+#message {
+
+    position: relative;
+    background-color: #FFFFFF;
+    border: none;
+    color: black;
+    font-size: 32px;
+    font-variant: small-caps;
+    width: 300px;
+    text-align: center;
+    margin-left: -150px;
+    margin-right: -150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    left:50%;
+    padding: 10px;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show1 {display:block;position: relative;}
+
+.show2 {display:block;position: relative;}
